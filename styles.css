@@ -33,7 +33,6 @@ body {
 .header {
     text-align: center;
     padding: 30px;
-    border: 2px solid #500404;
     margin-bottom: 30px;
     border: 3px solid #1d1e33;  /* Borde sólido azul */
     border-radius: 10px;  /* Esquinas redondeadas */
@@ -168,3 +167,4 @@ body {
    
    Puedes buscar colores en: https://htmlcolorcodes.com/
 */
+
