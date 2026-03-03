@@ -32,25 +32,30 @@ body {
    ===================================================== */
 .header {
     text-align: center;
-    padding-bottom: 30px;
-    border-bottom: 2px solid #3498db;
+    padding: 30px;
+    border: 2px solid #500404;
     margin-bottom: 30px;
+    border: 3px solid #1d1e33;  /* Borde sólido azul */
+    border-radius: 10px;  /* Esquinas redondeadas */
+    font-family: 'Trebuchet MS';
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+    background: linear-gradient(to bottom, #3c2c2c, #2a3a55);
 }
 
 .nombre {
     font-size: 2.5em;
-    color: #ff5a28;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
 .titulo {
     font-size: 1.3em;
-    color: #3498db;
+    color: #68ffbe;
     margin-bottom: 10px;
 }
 
 .contacto {
-    color: #7f8c8d;
+    color: #91e8f7;
     font-size: 0.95em;
 }
 
@@ -67,6 +72,8 @@ body {
     border-bottom: 2px solid #3498db;
     padding-bottom: 10px;
     margin-bottom: 20px;
+    font-family: 'Trebuchet MS';
+    font-style: italic;
 }
 
 /* =====================================================
@@ -74,6 +81,7 @@ body {
    ===================================================== */
 .item {
     margin-bottom: 20px;
+    font-family: 'Segoe UI';
 }
 
 .item h3 {
@@ -90,10 +98,12 @@ body {
 
 .item ul {
     margin-left: 20px;
+    font-family: 'Segoe UI';
 }
 
 .item ul li {
     margin-bottom: 5px;
+    font-family: 'Segoe UI';
 }
 
 /* =====================================================
@@ -101,6 +111,7 @@ body {
    ===================================================== */
 .descripcion {
     text-align: justify;
+    font-family: 'Segoe UI';
 }
 
 /* =====================================================
@@ -108,10 +119,12 @@ body {
    ===================================================== */
 .lista-cursos {
     margin-left: 20px;
+    font-family: 'Segoe UI';
 }
 
 .lista-cursos li {
     margin-bottom: 8px;
+    font-family: 'Segoe UI';
 }
 
 /* =====================================================
